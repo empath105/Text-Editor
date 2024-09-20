@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1132</width>
+    <height>1019</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1111</width>
+      <height>981</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QWidget" name="icon_only_widget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>71</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget{
+	background-color: rgb(255, 170, 255);
+}
+
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>28</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_17">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/назад.png</normaloff>:/фото для редактора/назад.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>28</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <property name="spacing">
+           <number>8</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="file_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/файл.png</normaloff>:/фото для редактора/файл.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="allcheck_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/выделение всего текста.png</normaloff>:/фото для редактора/выделение всего текста.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="copy_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/копирование.png</normaloff>:/фото для редактора/копирование.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="paste_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/вставка.png</normaloff>:/фото для редактора/вставка.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="shripht_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/шрифтн.png</normaloff>:/фото для редактора/шрифтн.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="size_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/размер.png</normaloff>:/фото для редактора/размер.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="color_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/цвет.png</normaloff>:/фото для редактора/цвет.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="plamp_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/жирный.png</normaloff>:/фото для редактора/жирный.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="italic_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/курсив.png</normaloff>:/фото для редактора/курсив.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="underline_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/подчёркивание.png</normaloff>:/фото для редактора/подчёркивание.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="find_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/найти.png</normaloff>:/фото для редактора/найти.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="stile_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/стили.png</normaloff>:/фото для редактора/стили.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="new_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/добавить.png</normaloff>:/фото для редактора/добавить.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>312</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <widget class="QPushButton" name="otstup_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/отступ.png</normaloff>:/фото для редактора/отступ.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="interval_Button_1">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/интервал.png</normaloff>:/фото для редактора/интервал.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QWidget" name="icon_text_widget" native="true">
+       <property name="styleSheet">
+        <string notr="true">QWidget{
+	
+	background-color: rgb(255, 170, 255);
+}
+
+QPushButton{
+	height: 30px;
+	border:none;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_13">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Comic Sans MS</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Текстовый</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Comic Sans MS</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <italic>false</italic>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string>редактор</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QFrame" name="file">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="file_Button_2">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	padding-left:-95px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Файл ...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="resic.qrc">
+                 <normaloff>:/фото для редактора/файл.png</normaloff>:/фото для редактора/файл.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="file_frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="newfile_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-65px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Создать</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="openfile_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-65px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Открыть</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="savepdffile_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-5px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Сохранить как .pdf</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="savehtmlfile_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Сохранить как .html</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="allcheck_Button_2">
+            <property name="styleSheet">
+             <string notr="true"> QPushButton{
+	padding-left:-60px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Выделить всё</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/выделение всего текста.png</normaloff>:/фото для редактора/выделение всего текста.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="copy_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-65px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Копировать</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/копирование.png</normaloff>:/фото для редактора/копирование.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="paste_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-85px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Вставить</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/вставка.png</normaloff>:/фото для редактора/вставка.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="shripht_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-85px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Шрифт</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/шрифтн.png</normaloff>:/фото для редактора/шрифтн.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="size_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-85px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Размер</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/размер.png</normaloff>:/фото для редактора/размер.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="color_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-95px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Цвет</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/цвет.png</normaloff>:/фото для редактора/цвет.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="plamp_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-85px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Жирный</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/жирный.png</normaloff>:/фото для редактора/жирный.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="italic_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-95px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Курсив</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/курсив.png</normaloff>:/фото для редактора/курсив.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="underline_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-55px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Подчёркнутый</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/подчёркивание.png</normaloff>:/фото для редактора/подчёркивание.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="find">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="find_Button_2">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	padding-left:-50px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Найти текст ...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="resic.qrc">
+                 <normaloff>:/фото для редактора/найти.png</normaloff>:/фото для редактора/найти.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="find_frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="findtext_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-75px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Найти</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="replacedtext_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-55px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Заменить</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="stile">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="stile_Button_2">
+               <property name="text">
+                <string>Стиль форматирования ...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="resic.qrc">
+                 <normaloff>:/фото для редактора/стили.png</normaloff>:/фото для редактора/стили.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="stile_frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="stile_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-80px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Стили</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="yourstile_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-30px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Добавить свой</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="new_2">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="new_Button_2">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	padding-left:-60px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Добавить ...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="resic.qrc">
+                 <normaloff>:/фото для редактора/добавить.png</normaloff>:/фото для редактора/добавить.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="new_frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="link_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-65px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Ссылка</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="image_Button">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-30px;
+}
+
+QPushButton:hover{
+	color:rgba(65,105,225,225);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Изображение</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>63</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <widget class="QPushButton" name="otstup_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-90px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Отступы</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/отступ.png</normaloff>:/фото для редактора/отступ.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="interval_Button_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-80px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Интервалы</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/интервал.png</normaloff>:/фото для редактора/интервал.png</iconset>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <layout class="QVBoxLayout" name="verticalLayout_16">
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+	background-color: rgb(255, 170, 255);
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resic.qrc">
+              <normaloff>:/фото для редактора/меню.png</normaloff>:/фото для редактора/меню.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>724</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="main_screen_widget" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QTextEdit" name="textEdit"/>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <item>
+             <spacer name="verticalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>818</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <pointsize>11</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1132</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resic.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>file_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>file_frame</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>find_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>find_frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>622</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>new_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>new_frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>268</x>
+     <y>792</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>818</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>stile_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>stile_frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>288</x>
+     <y>712</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>288</x>
+     <y>774</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>file_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>file_frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>file_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>file_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>allcheck_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>allcheck_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>151</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>copy_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>copy_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>188</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>paste_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>paste_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shripht_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>shripht_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>202</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>size_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>size_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>415</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>color_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>color_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>208</x>
+     <y>451</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>plamp_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>plamp_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>373</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>italic_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>italic_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>203</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>underline_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>underline_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>556</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>find_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>find_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>stile_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>stile_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>694</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>new_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>new_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>194</x>
+     <y>795</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>otstup_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>otstup_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>966</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>967</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>interval_Button_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>interval_Button_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>124</x>
+     <y>1003</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>1003</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_17</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>59</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>57</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icon_text_widget</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>343</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>298</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icon_only_widget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>53</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,165 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+import sys
+
+
+class Ui_NewStile(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(802, 633)
+        Form.setWindowFlags(QtCore.Qt.FramelessWindowHint)
+        Form.setAttribute(QtCore.Qt.WA_TranslucentBackground)
+        self.widget = QtWidgets.QWidget(Form)
+        self.widget.setGeometry(QtCore.QRect(20, 20, 751, 581))
+        self.widget.setStyleSheet("background-color: rgb(255, 170, 255);\n"
+"border-radius:30px;")
+        self.widget.setObjectName("widget")
+        self.label = QtWidgets.QLabel(self.widget)
+        self.label.setGeometry(QtCore.QRect(230, 30, 301, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.widget)
+        self.label_2.setGeometry(QtCore.QRect(50, 130, 81, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.fontComboBox = QtWidgets.QFontComboBox(self.widget)
+        self.fontComboBox.setGeometry(QtCore.QRect(170, 140, 226, 22))
+        self.fontComboBox.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.fontComboBox.setObjectName("fontComboBox")
+        self.label_3 = QtWidgets.QLabel(self.widget)
+        self.label_3.setGeometry(QtCore.QRect(50, 200, 81, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_3.setFont(font)
+        self.label_3.setObjectName("label_3")
+        self.spinBox = QtWidgets.QSpinBox(self.widget)
+        self.spinBox.setGeometry(QtCore.QRect(200, 200, 42, 22))
+        self.spinBox.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.spinBox.setObjectName("spinBox")
+        self.label_4 = QtWidgets.QLabel(self.widget)
+        self.label_4.setGeometry(QtCore.QRect(54, 270, 61, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_4.setFont(font)
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(self.widget)
+        self.label_5.setGeometry(QtCore.QRect(180, 270, 16, 16))
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.widget)
+        self.label_6.setGeometry(QtCore.QRect(340, 270, 16, 16))
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(self.widget)
+        self.label_7.setGeometry(QtCore.QRect(500, 270, 21, 16))
+        self.label_7.setObjectName("label_7")
+        self.lineEdit = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit.setGeometry(QtCore.QRect(210, 270, 101, 22))
+        self.lineEdit.setStyleSheet("background-color: white;\n"
+"border-radius:3px;")
+        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit_2.setGeometry(QtCore.QRect(370, 270, 101, 22))
+        self.lineEdit_2.setStyleSheet("background-color: white;\n"
+"border-radius:3px;")
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.lineEdit_3 = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit_3.setGeometry(QtCore.QRect(530, 270, 101, 22))
+        self.lineEdit_3.setStyleSheet("background-color: white;\n"
+"border-radius:3px;")
+        self.lineEdit_3.setObjectName("lineEdit_3")
+        self.label_8 = QtWidgets.QLabel(self.widget)
+        self.label_8.setGeometry(QtCore.QRect(50, 80, 91, 21))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_8.setFont(font)
+        self.label_8.setObjectName("label_8")
+        self.lineEdit_4 = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit_4.setGeometry(QtCore.QRect(170, 80, 231, 31))
+        self.lineEdit_4.setStyleSheet("background-color: white;\n"
+"border-radius:3px;")
+        self.lineEdit_4.setObjectName("lineEdit_4")
+        self.pushButton = QtWidgets.QPushButton(self.widget)
+        self.pushButton.setGeometry(QtCore.QRect(300, 500, 211, 41))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton.setFont(font)
+        self.pushButton.setStyleSheet("QPushButton{\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius:3px;\n"
+"}\n"
+"QPushButton:pressed{\n"
+"    color:rgba(65,105,225,225);\n"
+"    border-radius:3px;\n"
+"}")
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_2.setGeometry(QtCore.QRect(540, 500, 181, 41))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setStyleSheet("QPushButton{\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius:3px;\n"
+"}\n"
+"QPushButton:pressed{\n"
+"    color:rgba(65,105,225,225);\n"
+"    border-radius:3px;\n"
+"}")
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.widget1 = QtWidgets.QWidget(self.widget)
+        self.widget1.setGeometry(QtCore.QRect(70, 350, 171, 121))
+        self.widget1.setObjectName("widget1")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.widget1)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.checkBox = QtWidgets.QCheckBox(self.widget1)
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.checkBox.setFont(font)
+        self.checkBox.setObjectName("checkBox")
+        self.verticalLayout.addWidget(self.checkBox)
+        self.checkBox_2 = QtWidgets.QCheckBox(self.widget1)
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.checkBox_2.setFont(font)
+        self.checkBox_2.setObjectName("checkBox_2")
+        self.verticalLayout.addWidget(self.checkBox_2)
+        self.checkBox_3 = QtWidgets.QCheckBox(self.widget1)
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.checkBox_3.setFont(font)
+        self.checkBox_3.setObjectName("checkBox_3")
+        self.verticalLayout.addWidget(self.checkBox_3)
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.label.setText(_translate("Form", "Новый стиль форматирования"))
+        self.label_2.setText(_translate("Form", "Шрифт:"))
+        self.label_3.setText(_translate("Form", "Размер:"))
+        self.label_4.setText(_translate("Form", "Цвет:"))
+        self.label_5.setText(_translate("Form", "R:"))
+        self.label_6.setText(_translate("Form", "G:"))
+        self.label_7.setText(_translate("Form", "B:"))
+        self.label_8.setText(_translate("Form", "Название:"))
+        self.pushButton.setText(_translate("Form", "Добавить новый стиль"))
+        self.pushButton_2.setText(_translate("Form", "Просто закрыть"))
+        self.checkBox.setText(_translate("Form", "Жирный"))
+        self.checkBox_2.setText(_translate("Form", "Курсив"))
+        self.checkBox_3.setText(_translate("Form", "Подчёркнутый"))
+
+
+if __name__ == "__main__":
+    app = QtWidgets.QApplication(sys.argv)
+    Form = QtWidgets.QWidget()
+    ui = Ui_NewStile()
+    ui.setupUi(Form)
+    Form.show()
+    sys.exit(app.exec_())
